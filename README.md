@@ -1,6 +1,8 @@
 # Cypress Aquabot Testing Project
 # Hello
-![dino_hello_gif](https://giphy.com/gifs/hello-hi-good-morning-QTaNqfIczYL0iY4udO)
+![cute_gif](https://media1.giphy.com/media/26BkNnO2qmCWTQuac/giphy.gif?cid=ecf05e47zkxwq505kfkwcu7co31q8mxy5wj9r14ivngxxxnp&rid=giphy.gif&ct=g)
+
+This is a basic cypress framework.
 
 # Setup
 
@@ -20,4 +22,3 @@ And that's it, now you can run the project just fine ;-).
 * Graduated in Electrical Engineer
 * Linkedin - https://linkedin.com/in/alinelisboa/
 * Blog - https://lisboalien.com/ 
-This project is made for studying cypress framework.
