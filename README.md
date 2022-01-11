@@ -1,6 +1,6 @@
 # Cypress Aquabot Testing Project
 # Hello
-![dino_hello_gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fcute-hello&psig=AOvVaw3Pg8gINq16xUbmQ744i4kZ&ust=1641948020780000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCBz5u7qPUCFQAAAAAdAAAAABAJ)
+![dino_hello_gif](https://giphy.com/gifs/hello-hi-good-morning-QTaNqfIczYL0iY4udO)
 
 # Setup
 
