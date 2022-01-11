@@ -1,0 +1,24 @@
+{
+  "name": "cypress-aquabot-testing",
+  "version": "1.0.0",
+  "description": "A project to test automatically the aquabot testing playground site using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisboalien/cypress-aquabot-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisboalien/cypress-aquabot-testing/issues"
+  },
+  "homepage": "https://github.com/lisboalien/cypress-aquabot-testing#readme",
+  "dependencies": {
+    "cypress": "^9.2.0",
+    "cypress-real-events": "^1.6.0"
+  }
+}
