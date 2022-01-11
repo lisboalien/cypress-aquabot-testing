@@ -19,6 +19,5 @@ After that run the command to open cypress:
 And that's it, now you can run the project just fine ;-).
 
 ### Aline de Farias Lisboa
-* Graduated in Electrical Engineer
-* Linkedin - https://linkedin.com/in/alinelisboa/
+* Linkedin - https://www.linkedin.com/in/alinelisboa/?locale=en_US
 * Blog - https://lisboalien.com/ 
