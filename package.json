@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/lisboalien/cypress-aquabot-testing#readme",
   "dependencies": {
-    "cypress": "^9.2.0",
     "cypress-real-events": "^1.6.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.2.1"
   }
 }
