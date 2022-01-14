@@ -7,9 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      # Install NPM Dependencies, cache them and run all cypress tests
-      - uses: cypress-io/github-action@v2
+      - uses: actions/setup-node@v2
         with:
-          build: npm run build
-          start: npm test
+          node-version: '14'
+      - run: npm install
+      - run: npm test
