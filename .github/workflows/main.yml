@@ -9,10 +9,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Cypress install
+        uses: cypress-io/github-action@v2
+        with:
+          # Disable running of tests within install job
+          runTests: false
+          build: yarn build
+
       - name: Cypress run - Chrome
         uses: cypress-io/github-action@v2
         with:
+          install: false
           browser: chrome
+          record: true
 
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
@@ -21,7 +30,9 @@ jobs:
       - name: Cypress run - Firefox
         uses: cypress-io/github-action@v2
         with:
+          install: false
           browser: firefox
+          record: true
 
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
