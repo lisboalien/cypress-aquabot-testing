@@ -25,6 +25,7 @@ jobs:
           record: true
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
+          group: 'UI - ${{ matrix.browser }}'
 
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
