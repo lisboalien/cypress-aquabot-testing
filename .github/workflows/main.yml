@@ -9,7 +9,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Cypress run
+      - name: Cypress run - Chrome
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
+
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cypress run - Firefox
+        uses: cypress-io/github-action@v2
+        with:
+          browser: firefox
+
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
